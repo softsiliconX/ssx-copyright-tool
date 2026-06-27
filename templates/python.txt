@@ -1,6 +1,11 @@
 Copyright (c) {year} {company}
 All rights reserved.
 
+This software is confidential and proprietary to {company}.
+Unauthorized use, reproduction, modification, distribution, or disclosure
+of this software, in whole or in part, is strictly prohibited without
+prior written permission from {company}.
+
 File Name        : {filename}
 File Description : {description}
 Author           : {author}
