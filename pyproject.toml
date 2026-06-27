@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssx-header-tool"
+version = "2.0.0"
+description = "Enterprise source header management tool"
+readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+authors = [{name = "SoftSiliconX"}]
+dependencies = [
+    "pathspec>=0.12.1",
+    "PyYAML>=6.0",
+    "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=1.2",
+    "mypy>=1.8",
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.5",
+    "types-PyYAML>=6.0",
+]
+
+[project.scripts]
+ssx-header = "ssx_header_tool.cli:main"
+
+[tool.setuptools]
+package-dir = {""="src"}
+include-package-data = true
+data-files = {"share/ssx-header-tool/templates" = ["templates/*.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --strict-config"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["ssx_header_tool"]
+mypy_path = "src"

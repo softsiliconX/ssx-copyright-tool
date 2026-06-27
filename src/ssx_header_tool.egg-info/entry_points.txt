@@ -1,0 +1,2 @@
+[console_scripts]
+ssx-header = ssx_header_tool.cli:main

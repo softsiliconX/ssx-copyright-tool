@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+.coverage
+.pytest_cache/
+.mypy_cache/
+src/ssx_header_tools.egg-info/

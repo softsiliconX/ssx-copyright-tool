@@ -1,0 +1,7 @@
+Copyright (c) {year} {company}
+All rights reserved.
+
+File Name        : {filename}
+File Description : {description}
+Author           : {author}
+Date             : {date}
