@@ -1,3 +1,11 @@
+# Copyright (c) 2026 SoftSiliconX Pvt Ltd
+# All rights reserved.
+#
+# File Name        : test_ignore_scanner.py
+# File Description :
+# Author           : Santhosh
+# Date             : 2026-06-28
+
 """Ignore engine and scanner tests."""
 
 from __future__ import annotations

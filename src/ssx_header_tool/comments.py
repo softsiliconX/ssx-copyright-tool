@@ -1,3 +1,11 @@
+# Copyright (c) 2026 SoftSiliconX Pvt Ltd
+# All rights reserved.
+#
+# File Name        : comments.py
+# File Description :
+# Author           : Santhosh
+# Date             : 2026-06-28
+
 """Comment style detection and rendering."""
 
 from __future__ import annotations

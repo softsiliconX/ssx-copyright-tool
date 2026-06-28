@@ -1,3 +1,11 @@
+# Copyright (c) 2026 SoftSiliconX Pvt Ltd
+# All rights reserved.
+#
+# File Name        : processor.py
+# File Description :
+# Author           : Santhosh
+# Date             : 2026-06-28
+
 """Safe source header processing.
 
 Encoding, newline, parsing, and atomic writing are intentionally private to
